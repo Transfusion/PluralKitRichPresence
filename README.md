@@ -24,5 +24,6 @@ optional arguments:
   -api api_endpoint     PluralKit API Endpoint (default https://api.pluralkit.me)
   ```
   
- 
-  ![Fronters Info](https://i.imgur.com/Xr1tiCg.png)
+To customize the `details` and `state` (1st and 2nd row in the rich presence), copy [fronters_to_string.py](https://github.com/Transfusion/PluralKitRichPresence/blob/master/fronters_to_string.py) somewhere and modify it, then pass it as the `-f` argument (e.g. `$ ./pkrpc -id abcde -cid 782147341111111111 -t 20 -h -f ~/fronters_to_string.py`)
+
+![Fronters Info](https://i.imgur.com/Xr1tiCg.png)
