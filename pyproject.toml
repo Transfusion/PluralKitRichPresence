@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "PluralKitRichPresence"
+version = "0.1.0"
+description = ""
+authors = ["Bryan Kok <bryan.wyern1@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pypresence = "^4.0.0"
+aiohttp = "^3.7.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^20.8b1", allow-prereleases = true}
+
+[tool.poetry.scripts]
+main = "pluralkitrichpresence.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
