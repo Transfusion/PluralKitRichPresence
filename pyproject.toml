@@ -12,6 +12,7 @@ aiohttp = "^3.7.3"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 black = {version = "^20.8b1", allow-prereleases = true}
+pyinstaller = "^4.1"
 
 [tool.poetry.scripts]
 main = "pluralkitrichpresence.main:main"
