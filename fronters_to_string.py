@@ -1,5 +1,6 @@
 """
-A sample module that turns a dict with type
+A sample module that turns two dicts with type
+https://app.swaggerhub.com/apis-docs/xSke/PluralKit/1.1#/Systems/GetSystem and
 https://app.swaggerhub.com/apis-docs/xSke/PluralKit/1.1#/Systems/GetSystemFronters
 into {"details": string, "state": string}.
 Must contain a fronters_to_string function.
