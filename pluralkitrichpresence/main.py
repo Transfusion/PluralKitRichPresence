@@ -56,7 +56,7 @@ parser.add_argument(
 
 parser.add_argument(
     "-api",
-    help="PluralKit API Endpoint (default https://api.pluralkit.me)s",
+    help="PluralKit API Endpoint (default https://api.pluralkit.me)",
     metavar="api_endpoint",
     type=str,
     default="https://api.pluralkit.me",
